@@ -1,0 +1,200 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.header{
+    background-color: rgb(81, 163, 81);
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-links{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.brand{
+    font-size: 30px;
+    color: white;
+}
+.header-links>a{
+    font-size: 20px;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.8);
+}
+.header-links>a:hover{
+    color: white;
+
+}
+.header-user{
+    background-color: rgb(108, 108, 215);
+    padding: 10px 5px;
+    border-radius: 5px;
+}
+.hero{
+    background-color: rgb(81, 163, 81);
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 10px;
+}
+.hero-content{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.hero-content>p{
+    text-align: justify;
+}
+.hero-image{
+    display: flex;
+    justify-content: center;
+
+    
+}
+.hero-image>img{
+    height: 50vh;
+    transition: transform 500ms;
+}
+
+.hero-image>img:hover{
+    transform: rotate(180deg) scale(1.2);
+}
+.prerecipes{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.recipe-card-group{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    /* width: 100px; */
+}
+.recipe-card{
+    border: 1px solid black;
+}
+.recipe-card>img{
+    width: 18rem;
+}
+.recipe-card h5{
+    text-align: center;
+    font-size: 20px;
+}
+.banner{
+    height: 40vh;
+    background-image: url(https://t4.ftcdn.net/jpg/04/57/27/57/360_F_457275775_zKthn4tQlf9e9EgRSEDCLeXmlp3ayDyi.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner-container{
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 20px;
+    text-shadow: 3px 3px 2px black;
+}
+.banner-container>h1{
+    font-size: 35px;
+    text-align: center;
+}
+.banner-container>h4{
+    font-size: 25px;
+    text-align: center;
+}
+.dowonload{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 10px;
+    background-color: rgb(81, 163, 81);
+    color: white;
+}
+.dowonload-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dowonload-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.dowonload-content>button{
+    width: 80%;
+    background-color: white;
+    color: blue;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 20px;
+    box-shadow: 3px 3px black;
+}
+.testimonials {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.testimonials h1 {
+    margin-bottom: 20px;
+}
+
+.card-group {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.test-card {
+    border: 3px solid gray;
+    border-radius: 3px;
+    padding: 20px;
+    box-shadow: 3px 3px 3px black;
+}
+.footer{
+    background-color: rgb(81, 163, 81);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    color: white;
+}
+.footer-desc{
+    padding: 3px;
+}
+.footer-desc>h1{
+    margin-bottom: 10px;
+}
+.footer-desc>p{
+    text-align: justify;
+}
+.foooter-links{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.foooter-links>h1{
+    margin-bottom: 10px;
+}
+.footer-feedback{
+    padding: 10px;
+    /* display: grid; */
+}
+
+.footer-feedback button{
+    
+    background-color: rgb(46, 46, 150);
+    color: white;
+    box-shadow: 1px;
+    border-radius: 5px;
+    border: 3px solid black;
+    height: 10px 5px;
+}
